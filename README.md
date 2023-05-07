@@ -1,9 +1,12 @@
-Neither snow nor rain nor heat nor gloom of night stays these violet
-couriers from the swift completion of their appointed rounds. A project
-for the curious.
+You search for an open source mobile Android Messenger 
+that sends encrypted messages over a decentral, probably your own open source server? 
 
-Smoke
+The encryption algorithm is McEliece (quantum computing secure) or strong RSA.
+
+Smoke Plus Messenger 
 -----
+
+based as fork on the Smoke Messenger by Textbrowser.
 
 Summary of Smoke
 
@@ -68,34 +71,7 @@ Starting a Conversation
 <li>Done!</li>
 </ol>
 
-```
-Steamrolling is the process of real-time broadcasting of complete and
-incomplete inbound Steams. Let’s review a colorful example.
-*---------------*
-| Participant A | <--------------------------------------
-*---------------*                                       |
-       |                                                |
-       | (Steam A)                                      |
-       V                                                |
-*---------------*  (Steam A)  *---------------*         | (Steam A)
-| Participant B | ----------> | Participant C |         |
-*---------------*             *---------------*         |
-       |                                                |
-       | (Steam A)                                      |
-       V                                                |
-*---------------*                                       |
-| Participant D |                                       |
-*---------------*                                       |
-       |                                                |
-       | (Steam A)                                      |
-       V                                                |
-*---------------*                                       |
-| Participant E | ---------------------------------------
-*---------------*
-Participants C, D, and E shall receive Steam A data as participant B receives
-and writes Steam A data. If the stream of bytes between A and B is interrupted,
-the interruption will percolate throughout the network. Unique keys are established
-between each of the paired participants.
+
 ```
 
 ![alt text](https://github.com/textbrowser/smoke/blob/master/Images/smoke_7.png)
