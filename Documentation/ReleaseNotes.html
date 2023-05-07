@@ -1,0 +1,522 @@
+2023.05.10
+<br>
+<ul>
+  <li>Android API 28. Older devices may not be functional.</li>
+  <li>BouncyCastle's Rainbow implementation in 1.73 is new. Legacy Rainbow
+    is compromised and deprecated. A new implementation will not be
+    included.</li>
+  <li>Final APK release. Future releases will be source-only. Future-future
+    releases may include APKs.</li>
+  <li>McEliece is not functional in BounctyCastle 1.72 and newer. A new
+    implementation is required. This will not be addressed.</li>
+  <li>New Rainbow parameters. Previous parameters cannot be tolerated.</li>
+</ul>
+2023.04.05
+<br>
+<ul>
+  <li>Corrected state of Purge Fiasco Keys context menu item in Member
+    activity.</li>
+</ul>
+2023.03.30
+<br>
+<ul>
+  <li>Forceful termination of TCP sockets on severe errors.</li>
+</ul>
+2023.03.15
+<br>
+<ul>
+  <li>Emergency initialization of singletons, if possible.</li>
+</ul>
+2023.03.11
+<br>
+<ul>
+  <li>New Steams will be initially unlocked.</li>
+  <li>Toggle Lock Status context-menu item in Steam activity.</li>
+</ul>
+2023.03.10
+<br>
+<ul>
+  <li>Steam is now functional on Android 10 and 13. Do not interpret an
+    integer as a Base64.</li>
+</ul>
+2023.01.10
+<br>
+<ul>
+  <li>Corrected state of Delete Fiasco Keys context menu item in Settings
+    activity.</li>
+</ul>
+2023.01.07
+<br>
+<ul>
+  <li>Corrected error text.</li>
+  <li>Do not disable generate widgets during generation functions. Progress
+    widgets are sufficient.</li>
+  <li>Enable Participants context-menu items if data are available:
+    Delete Fiasco Keys, Delete Public Keys.</li>
+  <li>Reverted to Bouncy Castle 1.71 as key generation fails in 1.72.</li>
+</ul>
+2023.01.05
+<br>
+<ul>
+  <li>Bouncy Castle 1.72.</li>
+  <li>Happy New Year!</li>
+  <li>Retain Selection State in Member activity. Session only.</li>
+</ul>
+2022.11.15
+<br>
+<ul>
+  <li>Bouncy Castle 1.71.</li>
+  <li>Optional message-read responses.</li>
+  <li>Steam unlocking.</li>
+</ul>
+2022.05.28
+<br>
+<ul>
+  <li>Documentation.</li>
+  <li>Larger touch areas.</li>
+  <li>New public server.</li>
+</ul>
+2022.04.10
+<br>
+<ul>
+  <li>A neighbor removed from Settings will be deleted in a separate
+    task.</li>
+  <li>Avoid accessing encrypted database content if not authenticated:
+    publishing keys, publishing status, retrieving messages.</li>
+  <li>Corrected RSA key size for Steam: 3072, not 3096.</li>
+  <li>New parameters for Rainbow. Please read
+    https://eprint.iacr.org/2022/214.</li>
+  <li>Proper termination of Smoke service.</li>
+  <li>Terminate connections on TLS handshake errors.</li>
+</ul>
+2021.12.25
+<br>
+<ul>
+  <li>Enable SO_LINGER on TCP sockets.</li>
+  <li>Fewer Context objects.</li>
+  <li>Monospace fonts.</li>
+</ul>
+2021.12.17
+<br>
+<ul>
+  <li>Bouncy Castle 1.70.</li>
+  <li>Notify Member activity of new Steams.</li>
+</ul>
+2021.10.05
+<br>
+<ul>
+  <li>Concurrent collections.</li>
+  <li>Introduced new database table index for Member activity.</li>
+  <li>Lock safety.</li>
+  <li>Rainbow digital signature scheme.</li>
+  <li>Release Ringtone resources.</li>
+  <li>Sphincs digital signature scheme.</li>
+  <li>Steam locking, or, prevent the replacement of completed transfers.</li>
+  <li>Write identities in silent mode.</li>
+</ul>
+2021.07.25
+<br>
+<ul>
+  <li>Allow removal of Fiasco keys from Member activity.</li>
+  <li>Concurrent collections.</li>
+  <li>Decreased lock regions.</li>
+  <li>Limit execSQL(): cannot be delete / insert / select / update.</li>
+  <li>Resume All Steams context-menu option.</li>
+  <li>Silence over the wires. Optional.</li>
+  <li>Steam percents.</li>
+  <li>Wrap switches.</li>
+</ul>
+2021.07.07
+<br>
+<ul>
+  <li>Avoid extending received Steam names.</li>
+  <li>Bouncy Castle 1.69.</li>
+  <li>Improved SQLite selection of deliverable messages.</li>
+  <li>JuggerLi, or, the Juggernaut protocol via xor(public keys).</li>
+  <li>Prevent duplicate offset acknowledgments in Steam.</li>
+  <li>Steamrolling, or, sharing complete and incomplete Steams.</li>
+</ul>
+</ul>
+2021.03.20
+<br>
+<ul>
+  <li>Ignore duplicate calling keys.</li>
+  <li>Message details in Member activity.</li>
+  <li>Tulip server discontinued.</li>
+</ul>
+2021.02.27
+<br>
+<ul>
+  <li>Corrected raw SQLite queries.</li>
+  <li>Decreased awaitTermination() values. Method may stall Smoke.</li>
+  <li>ETags for bypassing congestion.</li>
+  <li>Reliable distribution of deliverable text messages. Requires
+    reinstall as new database fields have been introduced.</li>
+  <li>Replaced checkboxes with switches.</li>
+  <li>Tool tips.</li>
+  <li>Warn if the time server cannot be queried.</li>
+</ul>
+2021.02.10
+<br>
+<ul>
+  <li>Fewer locks.</li>
+  <li>Improved process termination.</li>
+  <li>New server tulip-ipv4.tilaa.cloud.</li>
+</ul>
+2021.01.30
+<br>
+<ul>
+  <li>Retain Fire messages.</li>
+  <li>Weak references.</li>
+</ul>
+2021.01.20
+<br>
+<ul>
+  <li>Corrected reset of local authentication key.</li>
+  <li>Obfuscate local authentication and encryption keys.</li>
+  <li>Prepare Steam key container properly.</li>
+</ul>
+2021.01.10
+<br>
+<ul>
+  <li>Avoid creating tasks for completed Steams.</li>
+  <li>Free Steam resources.</li>
+  <li>Sort sub-title IP address.</li>
+</ul>
+2020.12.25
+<br>
+<ul>
+  <li>Bouncy Castle 1.68.</li>
+  <li>Corrected comparisons of byte arrays.</li>
+  <li>Disable context menus if public keys are not available.</li>
+  <li>Estimate the number of physical cores for Argon2id. Smoke must be
+    reinstalled.</li>
+  <li>Future-proofing Smoke.</li>
+  <li>Guard String.indexOf().</li>
+  <li>Hide ephemeral key types for Other Steam destinations.</li>
+</ul>
+2020.12.15
+<br>
+<ul>
+  <li>Future-proofing cryptographic primitives.</li>
+  <li>New Steam database field. Please reinstall Smoke.</li>
+  <li>Permanent RSA keys are now 4096 bits.</li>
+  <li>Steam keys: McEliece, RSA.</li>
+  <li>Super McEliece (m = 13, t = 118).</li>
+</ul>
+2020.11.15
+<br>
+<ul>
+  <li>Bouncy Castle 1.67.</li>
+  <li>Disable Chat:Send if there is at least one selected participant
+    without a session key pair.</li>
+  <li>Efficient ArrayList::remove(). Remove from the end of the array.</li>
+  <li>Full, reliable, Steam! File sharing.</li>
+  <li>Improved TLS handshake-completed state.</li>
+  <li>Issue Settings::prepareListeners() shortly after the Settings activity
+    has been instantiated.</li>
+  <li>Monitor connection activity; decreased polling.</li>
+  <li>Notify the user of incorrect device time via
+    https://worldtimeapi.org/api/timezone/Etc/UTC.txt. Optional.</li>
+  <li>Prepare initial private keys during a public-key exchange.</li>
+  <li>Provide message-read responses to SmokeStack instances.</li>
+  <li>Random identities need not be recorded to databases.</li>
+  <li>Removed SecureRandom.getInstance("SHA1PRNG").</li>
+  <li>Removed verbose threads and replaced with events.</li>
+  <li>Request Ozone messages shortly after a TCP connection has been
+    established or a TLS session has been established.</li>
+  <li>SipHash-128.</li>
+  <li>Write local identity immediately upon completion of TLS handshake.</li>
+</ul>
+2020.04.07
+<br>
+<ul>
+  <li>Artificial random-access Steam files.</li>
+  <li>New Scripts directory.</li>
+  <li>Retain Steam rates.</li>
+</ul>
+2020.04.05
+<br>
+<ul>
+  <li>Clear Smokescreen password.</li>
+  <li>Static variables.</li>
+</ul>
+2020.04.04
+<br>
+<ul>
+  <li>Bouncy Castle 1.65!</li>
+  <li>Denote Juggernaut protocol failures and successes.</li>
+  <li>Kernel broadcast receiver for immediate delivery of internal
+    instructions.</li>
+  <li>McEliece Pointcheval conversion. Smoke must be reinstalled!</li>
+  <li>Non-TLS devices.</li>
+  <li>Partial Steam.</li>
+  <li>Passthrough devices.</li>
+  <li>Smokescreen, or, application lock.</li>
+</ul>
+2020.01.01
+<br>
+<ul>
+  <li>Happy New Year!</li>
+  <li>New Argon2id parameters.</li>
+</ul>
+2019.12.30
+<br>
+<ul>
+  <li>Argon2id key-derivation function.</li>
+</ul>
+2019.12.10
+<br>
+<ul>
+  <li>Allow Android to recycle bitmaps.</li>
+  <li>Corrected the private server authentication protocol.</li>
+</ul>
+2019.11.30
+<br>
+<ul>
+  <li>Support various McEliece parameters.</li>
+</ul>
+2019.11.25
+<br>
+<ul>
+  <li>Bouncy Castle version 1.64.</li>
+  <li>Corrected primary key in participants table. Please reinstall Smoke.</li>
+  <li>Corrected widget states during initialization.</li>
+</ul>
+2019.09.30
+<br>
+<ul>
+  <li>Bouncy Castle version 1.63.</li>
+  <li>Exit option. May be incomplete on some devices.</li>
+  <li>Guard socket buffers.</li>
+  <li>New icons.</li>
+  <li>Save attachments to Downloads (Internal Storage -> Download).</li>
+  <li>Settings -> View Details functional on Android 9.</li>
+</ul>
+2019.04.14
+<br>
+<ul>
+  <li>JuggerKnot.</li>
+  <li>Properly create strings from bytes. Ozones and participants must be
+    redefined.</li>
+</ul>
+2019.04.04
+<br>
+<ul>
+  <li>Allow removal of participant public keys.</li>
+  <li>Close Java streams.</li>
+  <li>Default socket buffer sizes.</li>
+  <li>Juggernaut Protocol.</li>
+  <li>Minor Fire layout changes.</li>
+  <li>Release resources on onPause(), onStop().</li>
+  <li>Removed deepCopy().</li>
+  <li>Smoke Alias. Change your credentials while preserving your
+    relationships.</li>
+</ul>
+2019.03.03
+<br>
+<ul>
+  <li>Allow removal of specific messages in Member.</li>
+  <li>Decreased maximum buffer size from 32 MiB to 8 MiB.</li>
+  <li>Prefer delete() over setLength(0) on buffers.</li>
+  <li>Recycle bitmaps.</li>
+</ul>
+2019.02.25
+<br>
+<ul>
+  <li>Bouncy Castle version 1.61.</li>
+  <li>Material icons.</li>
+  <li>Optional foreground service.</li>
+</ul>
+2019.02.02
+<br>
+<ul>
+  <li>Array lengths may not be negative.</li>
+  <li>Automatic removal of incorrect network data. Smoke and SmokeStack.</li>
+  <li>Corrected conditional in UdpMulticastNeighbor::send(). SmokeStack.</li>
+  <li>Disable Nagle's algorithm.</li>
+  <li>Energy and iterations.</li>
+  <li>Optional initialization of Ozone during neighbor definition.</li>
+  <li>Orderly shutdown of schedules.</li>
+  <li>Pause schedules, notify if necessary.
+  <li>Replaced Spongy Castle with Bouncy Castle. Please replace existing
+    listeners. SmokeStack.</li>
+  <li>SNAP!</li>
+  <li>Smaller lock regions.</li>
+  <li>SmokeStack confirmation for identity sharing of personal identity.</li>
+  <li>StringBuilder over StringBuffer if possible.</li>
+</ul>
+2018.10.10
+<br>
+<ul>
+  <li>Compute SHA-512 display digest of PEM(certificate).</li>
+  <li>Inspect length in String::substring().</li>
+  <li>New server (tulip-ipv4.tilaa.cloud).</li>
+</ul>
+2018.09.01
+<br>
+<ul>
+  <li>Allow resending of messages.</li>
+  <li>Deleting Fiasco keys lacked proper confirmation.</li>
+  <li>Denote messages which have been read by the recipient.</li>
+  <li>Denote messages which have been sent.</li>
+  <li>Depict Smoke failures.</li>
+  <li>Lock SipHash::hmac().</li>
+  <li>New participants_messages database fields. Requires new
+    installation.</li>
+</ul>
+2018.08.19
+<br>
+<ul>
+  <li>Allow generation of only PK material in Settings.</li>
+  <li>Allow new participant names via context menus;
+    Settings::Participants.</li>
+  <li>Automatically set the Ozone to the Smoke ID on new installations.</li>
+  <li>Blocking socket reads.</li>
+  <li>Bouncy Castle at version 1.60.</li>
+  <li>Calling via ephemeral McEliece; Member activity only.</li>
+  <li>Clear internal messaging log on Chat::Clear.</li>
+  <li>Corrected faulty widget listeners in Fire.</li>
+  <li>Corrected slight time differences between time stamps in messages
+    destined for SmokeStacks and messages destined for participants.</li>
+  <li>Increased key-publishing period from 15 seconds to 45 seconds. Also
+    removed self-publishing.</li>
+  <li>Material Design-compliant color selections.</li>
+  <li>McEliece parameters m = 12, t = 68.
+    Compatibility with m = 11, t = 50 is preserved.</li>
+  <li>Messages in Member activity will not be duplicated in the Chat
+    activity.</li>
+  <li>New Fiasco Keys column in Settings::Participants.</li>
+  <li>New chat-message format. Incompatible with previous releases.</li>
+  <li>Pause threads when possible.</li>
+  <li>Periodically request Ozone messages.</li>
+  <li>Private servers through SmokeStack.</li>
+  <li>Removed the superfluous name field from the participants database
+    table.</li>
+  <li>Replaced complex if-statements with switch statements.</li>
+  <li>Several member variables in the Neighbor class were defined as static.
+    Corrected.</li>
+  <li>Share capabilities and identities shortly after the SSL/TLS handshake
+    has completed on TCP sockets.</li>
+  <li>Shared keys without signatures are now accepted and properly depicted
+    in Settings.</li>
+  <li>Sign encryption and signature public keys as pairs.</li>
+  <li>Singular member pages. Single image attachments included.</li>
+  <li>Uniquely-persistent Fire identities.</li>
+  <li>Viewing of member details now available via Settings::Participants
+    context menu.</li>
+</ul>
+2018.05.05
+<br>
+<ul>
+  <li>Forward secrecy from the past.</li>
+</ul>
+2018.04.04
+<br>
+<ul>
+  <li>LocalBroadcastManager instances.</li>
+  <li>Single ID per Fire.</li>
+</ul>
+2018.03.15
+<br>
+<ul>
+  <li>Congestion-control improvements.</li>
+  <li>Corrected nested locks (isNetworkConnected()).</li>
+  <li>Insert-or-throw SQLite database queries.</li>
+  <li>The ProgressDialog class has been deprecated. ProgressBars have now
+    been added.</li>
+  <li>The replace method may not be available in a hash table; put().</li>
+</ul>
+2018.03.03
+<br>
+<ul>
+  <li>Attempt socket connections regardless of WiFi availability. Insight.</li>
+  <li>Automatically import rosemary-ipv4.tilaa.cloud:4710 on new
+    installations.</li>
+  <li>Corrected local echo behavior.</li>
+  <li>Echo Fire, if possible!</li>
+  <li>Fire Digest Key and Salt fields may not be empty. Corrected.</li>
+  <li>Host translation must be performed before every socket connection
+    attempt.</li>
+  <li>Large-area congestion-control mutex.</li>
+  <li>Partition messages over UDP links into 576-byte datagrams.</li>
+  <li>Provide the HMAC algorithm during identity distribution.</li>
+  <li>The Call widget should only be enabled if a network is present.</li>
+  <li>Time-tag SmokeStack-bound messages before departure. Otherwise,
+    SmokeStack instances will discard expired messages.</li>
+  <li>Wonderful documentation.</li>
+</ul>
+2018.02.20
+<br>
+<ul>
+  <li>Abort simultaneous calls.</li>
+  <li>Inspect WiFi availability before attempting socket connections.</li>
+  <li>New Chat background color.</li>
+  <li>Prepare calling public-key pairs without locking calling queue
+    object.</li>
+  <li>Replaced integers with long integers where necessary.</li>
+  <li>Set Fire height to 60% of screen height.</li>
+</ul>
+2018.02.10
+<br>
+<ul>
+  <li>Allow empty Fire participant names.</li>
+  <li>Allow purging of neighbor queues.</li>
+  <li>Automatic, oscillatory EPKS.</li>
+  <li>Avoid non-essential operations if network channels are not available.</li>
+  <li>Depict corrupted database entries.</li>
+  <li>Enabled Nagle's algorithm.</li>
+  <li>Introduced McEliece-Fujisaki via Bouncy Castle. Cross-communications
+    supported.</li>
+  <li>Minimum password length set to one character.</li>
+  <li>New Fire key generation. Destination tags are required for
+    SmokeStack.</li>
+  <li>Participant name changes should be reflected in the Chat activity.</li>
+  <li>Trim Channel, Digest Key, and Salt values on Fire.</li>
+</ul>
+2018.01.05
+<br>
+<ul>
+  <li>Fire, or, group communications. Compatible with Spot-On.</li>
+  <li>Increased lane widths to 8 MiB.</li>
+</ul>
+2017.08.19
+<br>
+<ul>
+  <li>Set a non-zero SO_TIMEOUT as some devices do not unblock socket reads
+    after sockets are closed.</li>
+</ul>
+2017.07.20
+<br>
+<ul>
+  <li>AndroidManifest.xml was missing WakeLock permissions.</li>
+  <li>Do not attempt to send duplicate data.</li>
+  <li>Do not specify timeouts in socket reads as separate threads are
+    responsible for socket reads.</li>
+  <li>Removed all Thread.sleep() instances.</li>
+  <li>Replaced StringBuilder Neighbor member with StringBuffer. StringBuffer
+    is thread-safe.</li>
+  <li>Signed release.</li>
+  <li>WiFi lock.</li>
+</ul>
+2017.07.16
+<br>
+<ul>
+  <li>Less activity on disconnected neighbors.</li>
+</ul>
+2017.07.09
+<br>
+<ul>
+  <li>Detect existing key pairs in writeParticipant().</li>
+  <li>Smaller database transaction areas.</li>
+</ul>
+2017.07.07
+<br>
+<ul>
+  <li>Do not automatically purge the temporary identity for offline message
+    retrieval unless some inactive period has elapsed.</li>
+  <li>Issue SQLiteDatabase.update() whenever a participant is added. This
+    will allow for replacing of participant names without removal of
+    existing data.</li>
+  <li>SmokeStack as a private public key repository.</li>
+</ul>

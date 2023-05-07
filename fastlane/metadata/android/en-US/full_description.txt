@@ -1,0 +1,47 @@
+Summary of Smoke
+
+* Aliases. Preserve your contacts.
+* Almost zero-dependency software.
+* Application lock.
+* Argon2id and PBKDF2 key-derivation functions.
+* Automatic, oscillatory public-key exchange protocol, via SipHash.
+* BSD 3-clause license.
+* Content is recorded via authenticated encryption.
+* Decentralized. TCP, and UDP multicast and unicast.
+* Does not require Internet connectivity.
+* Does not require registration. Telephone numbers are not required.
+* Encrypted communications.
+* Eventful tasks. Limited polling.
+* F-Droid.
+* Fiasco forward secrecy.
+* Future-proof software.
+* Introduces Cryptographic Discovery. Cryptographic Discovery is a
+  practical protocol which creates coordinated data paths.
+* Juggling Juggernaut Protocol!
+* Manufactured tool tips!
+* McEliece Fujisaka and Pointcheval.
+* Message structures do not explicitly expose contents. Header-less protocols!
+  Some messages do include type information.
+* Mobile servers via SmokeStack.
+* Obfuscation of resident secret keys.
+* Optional foreground services.
+* Optional silence over the wires.
+* Original implementation of SipHash.
+* Ozone destinations: private and public repositories.
+* Post offices for messages of the past.
+* Private servers.
+* Public and private public-key servers.
+* Rainbow digital signature scheme.
+* Reliable distribution of archived messages.
+* Reliable distribution of deliverable text messages.
+* SPHINCS digital signature scheme.
+* SSL/TLS through SmokeStack.
+* Semi-compatible with Spot-On via Fire.
+* Share files with TCP utilities such as Netcat.
+* SipHash-128.
+* Smoke and mirrors.
+* Software congestion control.
+* Software manual included.
+* Steam, reliable file sharing. TCP over the Echo!
+* Steamrolling, or, real-time broadcasting of inbound Steams to fellow participants.
+* Super McEliece: m = 13, t = 118.

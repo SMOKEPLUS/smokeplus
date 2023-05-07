@@ -1,0 +1,304 @@
+Completed Items
+
+- A menu item for terminating the application as well as its service.
+- A release target for the make files.
+- Aliases.
+- Allow for two McEliece parameter sets ((11, 50), (12, 68)):
+  Eleven of Fifty, Twelve of Sixty-Eight.
+- Allow log clearing.
+- Allow resending of messages.
+- Allow resetting of Chat session keys via context menu.
+- Allow sharing of participant pairs.
+- Allow unlocking of locked Steams.
+- Android 13 and Steam. Files are not present. Android is garbage.
+- Append new messages in Member Chat.
+- Append some text (file identity) to prevent duplicate Steams on write.
+- Application icon.
+- Application lock: Smokescreen.
+- As Name option in Alias mode (set alias to name). Name as Alias.
+- As the half-response does not produce a response, the automatic response's
+  result is ignored.
+- Asynchronous database writes.
+- Authenticate activity and member menu: menu is empty if Smoke was
+  recently initialized.
+- Automatically lock completed Steams. New database column.
+- Automatically set the Fire name if the Alias is changed, unless
+  the Fire name is not empty.
+- Banner text may shadow member status in Member Chat.
+- Bind recipient and sender.
+- Brief pause after message-retrieval request. Origins are random. No.
+  Stack must pause after receiving a message-retrieval request.
+- Broadcast a reminder to the Settings activity if a Chat message has been
+  received while the Settings activity is active.
+- Calling via multiple neighbors is chaotic.
+- Capitalize SipHash input.
+- Change case of final-static objects in Neighbor, Settings, SipHash,
+- Chat activity state is not retained. States of selected items will not be
+  retained as such states are expensive.
+- Chat messages will appear blue if they are assembled from the internal log
+  and are beyond the specific time window.
+- Class access privileges.
+- Compare provided encryption and signature public keys.
+- Complete Cryptography.pkiEncrypt().
+- Compress IPv6 Scope ID field when hidden.
+- Confirm application termination.
+- Connect the state of the Call button to the number of selected participants
+  (Chat).
+- Connecting status until in/out data has been received/transmitted.
+- Connection mutex (m_mutex).
+- Connection status text colors.
+- Context menu items in Member Chat: delete all, delete selected.
+- Copying of read-only values.
+- Create random Steam name on initial write.
+- Custom key streams via context menus.
+- Database method for retrieving neighbor OIDs.
+- Databases and versions; avoid reinstalls.
+- Decide if the State class requires cryptographic data.
+- Define passthrough devices.
+- Delete Fiasco keys from Member activity.
+- Deleting a connected neighbor and quickly re-adding it is problematic. If
+  the current thread has been interrupted, exit run().
+- Deleting a neighbor does not cause an immediate disconnect.
+- Depict Android version in About. New About.java file too.
+- Depict connection status in the Chat activity.
+- Depict location of the Downloads folder in the Steam activity.
+- Depict successful Steam key exchanges.
+- Deploy new user name to Fire channels.
+- Describe the Ozone feature.
+- Detect network status changes across neighbors.
+- Detect removal of neighbors.
+- Detect removal of participants.
+- Determine gradle's version in the make files.
+- Determine if a remote Steam has been restarted.
+- Determine path for any file in Steam.
+- Digest of PEM(certificate).
+- Disable Chat context menu options if public keys are not available.
+- Disable Delete Fiasco Keys, Delete Public Keys on Participants context menu
+  if information is not available. Not necessary.
+- Disable Member context menu options if public keys are not available.
+- Disable echo on low memory. Cannot. Instead, clear queues.
+- Disable proxy fields for non-TCP.
+- Display count of queued echo packets per neighbor.
+- Display date and time of sent message.
+- Display destination's name during session initialization.
+- Display exchange status in the Participants table. Icons.
+- Display information pertaining to the owner's public keys.
+- Display message-retrieval action.
+- Display neighbors contents.
+- Display remote server's certificate information. Public key fingerprint.
+- Do not enqueue messages in disconnected neighbors.
+- Do not save a key stream unless a response is received.
+- Document available tasks.
+- Duplicates Cryptography. Removed methods from State.
+- Dynamic DNS for home servers. Functional.
+- Dynamic textview objects trim text. Append an extra new line.
+- ECDSA.
+- EPKS description bubble.
+- EPKS.
+- Elongate messages in Member Chat.
+- Empty Steam files.
+- Enable Settings widgets after an initial password is accepted.
+- Erase ephemeral public key from Steam upon recording of first packet.
+- Exit menus.
+- Expand messages to multiples of 8 KiB.
+- Fire channels must be retained if the Fire activity is dismissed.
+- Fire through SmokeStack.
+- Fire. ("AES/CTS/NoPadding")
+- Foreground service, optional.
+- Full Steams, reliable Echo.
+- Future-proof Smoke (remove fixed cryptographic values).
+- Generate and separate.
+- Gently notify MemberChat of written messages. Gentle notifications prevent
+  bouncy context menus.
+- HTTP proxy.
+- Hide Steam key type for Other destination.
+- Highlight results of Juggernaut, if possible.
+- Identity-sharing confirmation from SmokeStack.
+- Ignore private duplicate keys.
+- If a SipHash ID is deleted, its corresponding participants entry should also
+  be removed. Foreign key constraints.
+- Improve PBKDF2 uses. Initially, generate a temporary stream of 20 bytes
+  (SHA-1). Afterwards, generate a stream using the temporary stream as
+  password material. The length of the second stream varies per application.
+- Inadvertent calling may sever an established session.
+- Inbound database table.
+- Include file extensions in Steams.
+- Include network information in neighbors pertaining to errors.
+- Include some random information in message headers.
+- Include status in Smokescreen activity.
+- Increase network buffer sizes for large attachments.
+- Individual member pages.
+- Initialize database ETAs and rates of Steams.
+- Inspect destination tags.
+- Inspect length in substring() usage.
+- Introduce termination logic on critical TCP read/write errors.
+- Java serialization requires safety.
+  (https://www.oracle.com/technetwork/java/seccodeguide-139067.html#8)
+- Kernel.
+- Key-sharing messages should be written to smoke.db.
+- JuggerKnot (credentials from protocol).
+- Juggernaut.
+  (https://en.wikipedia.org/wiki/\
+	   Password_Authenticated_Key_Exchange_by_Juggling)
+  (https://www.borelly.net/cb/docs/javaBC-1.4.8/prov/org/\
+	   bouncycastle/crypto/agreement/jpake/JPAKEParticipant.html)
+- Last activity and Member Chat. Restore.
+- Less populateParticipants() in the Chat activity.
+- Local congestion control.
+- Logging class. See Database::writeLog().
+- Long constants.
+- Material icons.
+- McEliece Pointcheval conversion.
+- Member status in Member Chat.
+- Member Chat attachment.
+- Messages from the past may trigger presence.
+- Message details:
+  [x] Disk size.
+- Messages may arrive while the Settings activity is the primary activity.
+  Calls are not logged.
+- Messages must be temporarily retained if the Chat activity loses focus.
+- Modify Settings so that TCP neighbors support SOCKS proxies.
+- Mutex problem. Most likely large awaitTermination() values.
+- Names or PINs alongside SipHashes. The extra bits will increase the
+  possibilities. SipHash-128.
+- Neighbor class.
+- Neighbor details should be optional.
+- Neighbors periodic refresh.
+- Network status in Member Chat.
+- Network status information is too complex.
+- New class for establishing Steam keys.
+- New date format: YYYY-MM-DD. ISO-8601.
+- New messages should be at the top of the view; Member Chat.
+- Next (Tab) order; Settings.
+- Non-TLS connections.
+- Non-exclusive database transactions.
+- Notification causes abnormal exit on Android 7.
+- Notify of other member messages in Member Chat.
+- Notify operator of incorrect time.
+- Notify the Chat activity of new participants.
+- Optimize loops.
+- Optional per-participant Steam.
+- Optional per-participant signatures.
+- Optional time notification.
+- Orderly delivery of chaotic Steams. First-in-first-Steam.
+- Organic half-and-half: resolve collisions. As Smoke is not ordered, order is
+  impossible to predict.
+- Outbound database table.
+- Outbound queues must be purged on parent neighbor removal.
+- Participant list may be large. Create a special State container and thread
+  for retrieval.
+- Participant status icon should not be modified if newly-received message is
+  from an Ozone.
+- Passthrough devices.
+- Password-protected ZIP and Netcat transfer. Steam is functional over
+  TLS connection.
+- Per request, include the source in the application bundle.
+- Periodic key publishing requires more intelligence.
+- Populate Chat member list without accessing the database.
+- Populate Settings neighbors during new installation. Start timers.
+- Potential database locking problem with repeated replacement of neighbor
+  objects. Replaced replace() with intelligent insert().
+- Prepare for Chat, E-Mail, etc. public key pairs.
+- Prevent-sleep option in Settings.
+- Preview attachment.
+- Prompt for neighbor removal.
+- Purge neighbors in a task via Settings.
+- Purging of neighbor queues should occur off of the main thread.
+- Push sent messages from Member Chat to Chat.
+- Receiving requested keys which do not include signatures should be
+  functional.
+- Record background Fire messages.
+- Record received messages in Chat from Member Chat.
+- Refresh context menu on Chat table.
+- Remote storage of messages. SmokeStack.
+- Remove UI-related references in Settings::prepareListeners()::...::run().
+- Remove expired private keystreams.
+- Replace 96 with Cryptographic.CIPHER_HASH_KEYS_LENGTH.
+- Replace Date object with AtomicLong objects.
+- Replace INTEGER_BYTES with Integer.BYTES and LONG_BYTES with Long.BYTES.
+- Replace the (final) iterations variable in
+- Requesting offline messages stalls if there are several active neighbors.
+  https://developer.android.com/reference/android/net/wifi/
+  WifiManager.WifiLock.html
+- Reliable delivery of deliverable text messages:
+  [x] Delete messages which are not deliverable.
+  [x] Delete messages which have been received.
+  [x] Retrieve deliverable messages. Messages are deliverable if their
+      timestamps are within well-defined time windows.
+  [x] Text messages only.
+- Reset option in Authenticate activity.
+- Reset option. Remove smoke.db. Reset widget states.
+- Reset spinners after credentials are initialized.
+- Resize Member Chat bubbles according to contents.
+- Retain Chat participant states on refresh.
+- Retain Chat widget selection states. Remove State objects if participants
+  are removed via the Settings activity.
+- Retain Selection State option.
+- Retain first-contact server certificate. Inspect stored bytes with received
+  bytes.
+- Retrieve a subset of message data in Member Chat. New data via scroll.
+- Retrieve/store user name.
+- Return message-read status in status messages.
+- Rich context menu containing other members.
+- SQL execSQL(): cannot be delete / insert / select / update.
+- SQLite secure delete (onConfigure()).
+- Save attachment.
+- Save files and images to Downloads folder.
+- Schedulers may silently fail. try-catch blocks!
+- Scroll on sending of local messages; Member Chat.
+- Scroll within scroll in Fire channels.
+- Send messages in Member Chat.
+- Settings::prepareListeners()::...::run().
+- Sign encryption and signature keys as a pair.
+- Signed release.
+- Silent mode.
+- Simple Steam through UDP.
+- Simple binary status in Chat. Kernel scheduler.
+- SipHash (https://en.wikipedia.org/wiki/SipHash).
+- SipHash description bubble.
+- Smoke echo? Expensive. Optional.
+- Smokescreen, remove sub-menus on lock.
+- Sort table contents.
+- Spinner objects in the neighbors table bleed. The table will expand as
+  necessary.
+- Stack message confirmations. New message type required.
+- Status messages.
+- Steam context menu items and Steam types.
+- Steam context menu.
+- Steam keys (McEliece, RSA, etc.).
+- Steam rates.
+- Steam separators.
+- Steamrolling, or, forwarding incomplete Steams to other participants.
+- Store a digest of the secret string (Miscellaneous.showTextInputDialog()) if
+  the secret is brief.
+- Subtitle IP address container is not properly sorted.
+- Super McEliece (m = 13, t = 118).
+- Synchronized methods or containers? Both.
+- TCP socket setPerformancePreferences().
+- TLS 1.3 in Android 10.
+- TcpNeighbor classes.
+- The Bundle object is not saved.
+- The Socket class supports the Proxy class.
+- The initial call (1/2-1/2) should store the generated stream in a map
+  (or hash).
+- The timestamp in participants_messages must be used for sorting.
+- UDP multicast.
+- UDP sockets.
+- Upon receiving a timely response, the total key stream should be saved to
+  smoke.db. If a timely response is not received, the partial data should be
+  purged.
+- Vacuum databases.
+- Validate the SipHash implementation. Please see SipHash::test1().
+- Verify hexadecimal characters of SipHash identities.
+- Video tutorials.
+- View Details vanishes on Android 9. Disable Miscellaneous.enableChildren()
+  for Android version greater than N (Nougat). Android is garbage.
+- When verifying signatures, recipients should retrieve appropriate personal
+  identity digests.
+- Wrap neighbor text.
+- Zero ports are valid. If a system is allowing connections on port
+  zero, Smoke will be able to connect to it.
+
+Remaining Items
+
+- Completed!
